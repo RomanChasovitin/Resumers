@@ -1,0 +1,57 @@
+$greenvue: #41B883;
+$bluevue: #35495E;
+$light: #eceff1;
+body{
+	overflow: hidden;
+	background-color: #424242;
+}
+
+h2{
+		margin: 30px 0;
+		font-weight: bold;
+}
+
+#app transition{
+	display: flex;
+}
+
+.blue-color{
+		color: $bluevue;
+}
+
+.green-color{
+	color: $greenvue;
+}
+
+.light-color{
+	color: $light;
+}
+
+.vue-green{
+	background-color: $greenvue;
+	padding: 0 50px;
+}
+.vue-blue{
+	background-color: $bluevue;
+	padding: 0 50px;
+}
+
+.vertical-centered{
+	margin: auto;
+}
+
+
+
+
+.main-enter{
+	opacity: 0;
+}
+.main-enter-active{
+	transition: opacity .25s;
+}
+.main-leave{
+	opacity: 0;
+}
+.main-leave-active{
+	transition: opacity .25s;
+}
